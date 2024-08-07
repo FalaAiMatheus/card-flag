@@ -1,6 +1,6 @@
 {
   "name": "card-flag",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "app.js",
   "engines": {
     "node": "20"
