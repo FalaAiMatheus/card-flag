@@ -1,0 +1,53 @@
+{
+  "name": "card-flag",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "start": "node dist/src/app.js",
+    "build": "tsup src",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "Card Validator",
+    "Credit Card Validation",
+    "Debit Card Validation",
+    "Card Brand Identification",
+    "Card Logo Display",
+    "Payment Form Validation",
+    "Credit Card Check",
+    "Debit Card Check",
+    "Card Validation Library",
+    "Card Type",
+    "Card Flag Detection",
+    "Secure Payment Validation"
+  ],
+  "author": "Fala ai Matheus",
+  "maintainers": [
+    "Fala ai Matheus"
+  ],
+  "license": "MIT",
+  "description": "CardFlag é uma biblioteca leve e eficiente que permite a validação de números de cartões de crédito e débito, identificando automaticamente a bandeira do cartão (Visa, MasterCard, American Express, etc.) e exibindo o respectivo logotipo. Ideal para formulários de pagamento online, a CardFlag ajuda a melhorar a experiência do usuário e a segurança das transações, fornecendo uma forma rápida e confiável de confirmar a validade e a bandeira dos cartões.",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "tsup": "^8.2.4",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
