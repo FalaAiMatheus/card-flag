@@ -1,0 +1,6 @@
+# Ignore archives
+*.md
+*.json
+*.lock
+.prettierrc
+.eslintignore
