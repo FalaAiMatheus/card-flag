@@ -1,5 +1,5 @@
-import { cardsRegex } from '@/regex';
-import { ValidateCardType } from '@/types';
+import { cardsRegex } from '../regex';
+import { ValidateCardType } from '../types';
 
 export function validateCardNumber({ cardNumber }: ValidateCardType) {
   const cardValidate = cardNumber.replace(/[^0-9]+/g, '');
