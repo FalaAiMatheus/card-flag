@@ -8,14 +8,17 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "target": "es2022",
+    "declaration": true,
+    "declarationMap": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node16",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/lib/*": ["./src/lib/*"]
     }
   },
-  "include": ["src", "src/lib/functions/.gitkeep"]
+  "include": ["src", "index.d.ts", "_.examples"]
 }
